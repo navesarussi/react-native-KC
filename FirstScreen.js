@@ -10,7 +10,7 @@ function FirstScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Button
-        title="Go to Second Screen"
+        title="Go to Second Screen2"
         onPress={() => navigation.navigate('SecondScreen')}
       />
     </View>
