@@ -4,7 +4,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import FirstScreen from './FirstScreen'; // Assuming you have the initial screen component
-import SecondScreen from './SecondScreen'; // Import the new screen component
+import donationScreen from './donationScreen';
 
 const Stack = createStackNavigator();
 
@@ -13,7 +13,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="FirstScreen" component={FirstScreen} />
-        <Stack.Screen name="SecondScreen" component={SecondScreen} />
+        <Stack.Screen name="donationScreen" component={donationScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

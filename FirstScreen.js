@@ -10,9 +10,8 @@ function FirstScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Button
-        title="Go to Second Screen2"
-        onPress={() => navigation.navigate('SecondScreen')}
-      />
+      title="Go to all donations"
+      onPress={() => navigation.navigate('donationScreen')}/>
     </View>
   );
 }
