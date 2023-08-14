@@ -13,6 +13,10 @@ function FirstScreen() {
         title="Go to Second Screen2"
         onPress={() => navigation.navigate('SecondScreen')}
       />
+      <Button
+        title="Go to Home screen"
+        onPress={() => navigation.navigate('homeScreen')}
+      />
     </View>
   );
 }
